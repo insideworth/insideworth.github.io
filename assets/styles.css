@@ -1,0 +1,127 @@
+body {
+    padding:0px 20px;
+}
+.background {
+background: #34363b;
+
+}
+.main-container {
+    background: #202124;
+    max-width: 1200px;
+    margin:auto;
+    padding-left:20px;
+    min-height: 100vh;
+}
+.line-hor {
+    height: 1px;
+    width: 100%;
+    background:#35363a;
+
+}
+
+.line-ver {
+    width:1px;
+    height: 100%;
+    background:hsl(228, 5%, 22%);
+}
+
+.txt-content {
+    color: #ffffff;
+}
+.header-outer {
+    padding: 10px;
+}
+.store-btn {
+    background: #1c64ec;
+    display:inline-block;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding:4px 8px;
+    position: absolute;
+    bottom:30px;
+    right: 4px;
+}
+.iw-card {
+    width: 150px;
+    border-radius: 12px;
+    display: inline-block;
+    background: #35363a;
+    max-height: 280px;
+    overflow: hidden;
+    margin-right:16px;
+    white-space: normal;
+    text-align: left;
+}
+.iw-card img {
+    width:150px;
+}
+.card-text-area {
+    display: block;
+    height: 150px;
+    color:#ffffff;
+    padding: 12px;
+    padding-top: 0px;
+    position: relative;
+    
+}
+.card-text-area .title {
+    font-size:0.9rem;
+}
+.card-text-area .spec {
+    font-size:0.8rem;
+    
+}
+.mobile-section {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.section-title {
+    font-size:1.2rem;
+    text-align: left;
+}
+.title-small {
+    font-size:0.8rem;
+    color: #767679;
+}
+.cards-holder {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space:nowrap;
+    height: 310px;
+}
+.cards-holder:hover {
+    overflow-x: scroll;
+}
+.custom-scroll {
+    --scrollbarBG: #CFD8DC;
+    --thumbBG: #90A4AE;
+  }
+  .custom-scroll::-webkit-scrollbar {
+    width: 11px;
+    height: 8px;
+  }
+  .custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #90A4AE none;
+  }
+  .custom-scroll::-webkit-scrollbar-track {
+    background: none;
+  }
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #90A4AE ;
+    border-radius: 6px;
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .cards-holder {
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space:nowrap;
+        height: 310px;
+    }
+    .custom-scroll::-webkit-scrollbar {
+        width: 11px;
+        height: 0px;
+      }
+  }
