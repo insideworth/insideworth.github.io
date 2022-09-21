@@ -1,8 +1,14 @@
+.page-logo .inside{
+    color:#0b9557;
+}
+.page-logo .worth {
+color: #35548a;
+}
 body {
     padding:0px 20px;
 }
 .background {
-background: #34363b;
+background: #16151a;
 
 }
 .main-container {
@@ -32,17 +38,27 @@ background: #34363b;
     padding: 10px;
 }
 .store-btn {
-    background: #1c64ec;
+    background: linear-gradient(to bottom,#f8e6b8 0,#f3d686 6%,#ebb62c 100%);
     display:inline-block;
-    color: #FFFFFF;
+    color: #000000;
     border-radius: 20px;
     padding:4px 8px;
     position: absolute;
     bottom:30px;
-    right: 4px;
+    left: 12px;
+    white-space: nowrap;
+    font-size:0.8rem;
+    cursor:pointer;
+    user-select: none;
+}
+.flipkart-btn {
+    display:inline-block;display:inline-block;
+    position: absolute;
+    bottom:30px;
+    left: 12px;
 }
 .iw-card {
-    width: 150px;
+    width: 220px;
     border-radius: 12px;
     display: inline-block;
     background: #35363a;
@@ -53,7 +69,17 @@ background: #34363b;
     text-align: left;
 }
 .iw-card img {
-    width:150px;
+    
+    height: 150px;
+}
+.iw-card .flipkart-btn img {
+    height: auto;
+}
+.amazon-aff-image {
+    width: 100%;
+    display: inline-block;
+    background: white;
+    text-align: center;
 }
 .card-text-area {
     display: block;
@@ -68,8 +94,8 @@ background: #34363b;
     font-size:0.9rem;
 }
 .card-text-area .spec {
-    font-size:0.8rem;
-    
+    font-size: 0.7rem;
+    color: #c7c1c1;
 }
 .mobile-section {
     margin-top: 8px;
@@ -79,6 +105,12 @@ background: #34363b;
 .section-title {
     font-size:1.2rem;
     text-align: left;
+}
+.amazon-title {
+    cursor: pointer;
+    user-select: none;
+    color:#ebb62c;
+    text-decoration: none;
 }
 .title-small {
     font-size:0.8rem;
