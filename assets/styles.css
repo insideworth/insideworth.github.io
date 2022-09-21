@@ -147,6 +147,9 @@ background: #16151a;
     
   }
   @media only screen and (max-width: 600px) {
+    body {
+        padding:0px 0px;
+    }
     .cards-holder {
         overflow-x: auto;
         overflow-y: hidden;
