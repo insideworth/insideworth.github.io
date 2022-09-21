@@ -98,7 +98,7 @@ background: #16151a;
     color: #c7c1c1;
 }
 .mobile-section {
-    margin-top: 8px;
+    margin-top: 28px;
     text-align: center;
 }
 
@@ -120,7 +120,8 @@ background: #16151a;
     overflow-x: hidden;
     overflow-y: hidden;
     white-space:nowrap;
-    height: 310px;
+    height: 300px;
+    margin-top:20px;
 }
 .cards-holder:hover {
     overflow-x: scroll;
