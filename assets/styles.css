@@ -80,6 +80,7 @@ background: #16151a;
     display: inline-block;
     background: white;
     text-align: center;
+    min-height: 150px;
 }
 .card-text-area {
     display: block;
